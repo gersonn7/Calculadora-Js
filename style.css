@@ -6,7 +6,7 @@
 }
 
 .background{
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
     height: 100vh;
     color: white;
     text-align: center;
@@ -14,7 +14,7 @@
 }
 .calculator{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(0, 0, 0);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -27,14 +27,14 @@
     font-size: 25px;
     margin: 3px;
     cursor: pointer;
-    background-color: #161617;
+    background-color: #181717;
     color: white;
 }
 .btn:hover{
     background-color: black;
 }
 #resultado{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 207px;
     height: 30px;
     margin: 5px;
